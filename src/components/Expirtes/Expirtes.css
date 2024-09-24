@@ -1,0 +1,75 @@
+.expirtes {
+    position: relative;
+    top: -6px;
+    background: linear-gradient(90deg, #2e2e2d73 100%, rgb(21 18 18 / 55%) 50%, #ece8e8 0%);
+
+}
+.expirtes-info {
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.expirtes-info .info {
+    max-width: 500px;
+}
+.self-image img {
+    width: 500px;
+    height: 400px;
+}
+.expirtes p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.expirtes h3 ,h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.resume button {
+    background-color:rgb(244, 197, 104);
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+        padding:15px 10px;
+}
+.resume button a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+}
+.resume button:hover {
+    background-color: rgb(247, 182, 53);
+}
+@media (max-width:1115px){
+    .self-image img {
+    width: 400px;
+    height: 300px;
+}
+    .expirtes-info .info {
+        max-width: 400px;
+    }
+}
+@media (max-width:960px) {
+    .expirtes-info {
+    flex-direction: column-reverse;
+}
+    .self-image img {
+        padding-bottom: 2rem;
+}
+}
+@media (max-width:465px) {
+    .self-image img {
+        width: 250px;
+        height: 200px;
+}
+    .expirtes-info {
+    width: 250px;
+}
+.landing-content {
+    display: none;
+}
+}
