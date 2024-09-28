@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/d.sara-jouney-portfolio/static/css/main.1ef01781.css",
+    "main.css": "/d.sara-jouney-portfolio/static/css/main.d8efcf26.css",
     "main.js": "/d.sara-jouney-portfolio/static/js/main.1a0748fe.js",
     "static/js/787.7378a228.chunk.js": "/d.sara-jouney-portfolio/static/js/787.7378a228.chunk.js",
     "static/media/Dentist2.jpg": "/d.sara-jouney-portfolio/static/media/Dentist2.863d38f7680e80a034e5.jpg",
@@ -18,12 +18,12 @@
     "static/media/tooth.png": "/d.sara-jouney-portfolio/static/media/tooth.01d6b0017292dad1e819.png",
     "static/media/tooth5.png": "/d.sara-jouney-portfolio/static/media/tooth5.6751473ab5ab1d603102.png",
     "index.html": "/d.sara-jouney-portfolio/index.html",
-    "main.1ef01781.css.map": "/d.sara-jouney-portfolio/static/css/main.1ef01781.css.map",
+    "main.d8efcf26.css.map": "/d.sara-jouney-portfolio/static/css/main.d8efcf26.css.map",
     "main.1a0748fe.js.map": "/d.sara-jouney-portfolio/static/js/main.1a0748fe.js.map",
     "787.7378a228.chunk.js.map": "/d.sara-jouney-portfolio/static/js/787.7378a228.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef01781.css",
+    "static/css/main.d8efcf26.css",
     "static/js/main.1a0748fe.js"
   ]
 }
