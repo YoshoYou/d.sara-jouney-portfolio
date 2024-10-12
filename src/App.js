@@ -1,17 +1,18 @@
 import './App.css';
-// import { Expirtes } from './components/Expirtes/Expirtes';
+import { ContactMe } from './components/ContactMe/ContactMe';
+import { Expirtes } from './components/Expirtes/Expirtes';
 import { Home } from './components/Home/Home';
-// import { MyJob } from './components/MyJob/MyJob';
+import { MyJob } from './components/MyJob/MyJob';
 import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-      {/* <Expirtes/>
-      <MyJob/> */}
+      <Expirtes/>
+      <MyJob />
+      <ContactMe />
     </div>
   );
 }
-
 export default App;

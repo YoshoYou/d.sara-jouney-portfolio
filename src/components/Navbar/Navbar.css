@@ -46,7 +46,7 @@ a {
     width: fit-content;
     height: fit-content;
     background-color: rgb(3 169 244 / 44%);
-    color: #11111ae0;
+    color: #000000;
 }
 .btn {
     display: none;
@@ -58,7 +58,7 @@ a {
     cursor: pointer;
     z-index: 1000;
 }
-@media (max-width:769px){
+@media (max-width:790px){
     .btn {
         display: block;
     }  

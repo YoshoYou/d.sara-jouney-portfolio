@@ -1,0 +1,13 @@
+.my-job {
+    margin: 4rem;
+}
+.my-job-heading h4 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: var(--font-base);
+}
+.my-job-heading p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 4rem;
+}

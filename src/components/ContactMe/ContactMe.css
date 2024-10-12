@@ -1,0 +1,40 @@
+.contact-me {
+    padding: 0.5rem 0 0 0;
+    background: linear-gradient(90deg, rgba(165, 243, 243, 0.53) 0%, rgb(76 244 244 / 0%) 50%, rgba(165, 243, 243, 0.53) 100%);
+}
+.container {
+    margin: 7rem 4rem;
+}
+.contact-me h4 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: var(--font-base);
+    margin: 1rem 0 2rem 0;
+}
+.contact-me p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+
+}
+.contact .icon-media {
+    font-size: 40px;
+    fill: black;
+}
+.icon-card {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: se-between; */
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width:620px) {
+    .contact-me p  {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,31 @@
+.card-container {   
+    /* position: relative; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+.display {
+    display:  none;
+}
+.active {
+    display: block;
+}
+.icon {
+    position: absolute;
+    font-size: 40px;
+    top: 1rem;
+    right: 4rem;
+    fill: black;
+    cursor: pointer;
+    z-index: 3000;
+}
+@media (max-width:910px) {
+    .card-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
