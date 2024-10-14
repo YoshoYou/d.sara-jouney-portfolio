@@ -40,7 +40,14 @@
 .card-info p {
     font-size: 20px;
     font-weight: 500;
+    font-family: var(--font-base);
 }
 .card-info p:hover {
     color: rgb(60, 181, 181);
+}
+@media (max-width:920px){
+    .card-imgs {
+        width: 220px;
+        height: 120px;
+    }
 }

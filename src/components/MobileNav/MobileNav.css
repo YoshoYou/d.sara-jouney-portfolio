@@ -36,12 +36,12 @@ a:hover {
 	animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .mobile-nav .btn {
-    font-size: 2rem;
+    font-size: 3rem;
     position: fixed;
-    right: 1rem;
+    right: 2rem;
     align-items: center;
-    top: 1.5rem;
-    color: #221be4;
+    top: 1.3rem;
+    fill: #166e72;
     cursor: pointer;
     z-index: 3000;
 }

@@ -23,14 +23,7 @@ a {
     padding-left: 2rem;
 }
 .icon_1 svg {
-    fill: #ffffff;
-} 
-.icon_2 img {
-    width: 80px;
-    height: 70px;
-    border-radius: 100%;
-    position: relative;
-    right: 3rem;
+    fill: #ffff;
 } 
 .nav-menu {
     display: flex;
@@ -48,18 +41,18 @@ a {
     background-color: rgb(3 169 244 / 44%);
     color: #000000;
 }
-.btn {
+.navbar .btn {
     display: none;
-    font-size: 2rem;
+    font-size: 3rem;
     position: absolute;
-    right: 1rem;
+    right: 2rem;
     align-items: center;
-    color: #221be4;
+    fill: #166e72;
     cursor: pointer;
     z-index: 1000;
 }
 @media (max-width:790px){
-    .btn {
+    .navbar .btn {
         display: block;
     }  
     .nav-menu {
@@ -72,4 +65,9 @@ a {
     .icon_2 img {
         display: none;
     }
-        }       
+        }   
+@media (max-width:400px) {
+    .navbar .btn {
+        font-size: 2.5rem;
+    }
+}    

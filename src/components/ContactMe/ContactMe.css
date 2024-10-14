@@ -13,13 +13,13 @@
 }
 .contact-me p {
     font-size: 20px;
+    width: 75%;
     font-weight: 600;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
 }
 .contact {
     display: flex;
     flex-direction: column;
-
 }
 .contact .icon-media {
     font-size: 40px;
@@ -28,13 +28,17 @@
 .icon-card {
     display: flex;
     flex-direction: row;
-    /* justify-content: se-between; */
     align-items: center;
     gap: 2rem;
 }
-
 @media (max-width:620px) {
-    .contact-me p  {
-        font-size: 17px;
+    .container {
+        margin: 7rem 2rem;
     }
+    .contact-me p  {
+        font-size: 20px;
+    }
+    .contact .icon-media {
+    font-size: 30px;
+}
 }
