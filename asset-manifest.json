@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/d.sara-jouney-portfolio/static/css/main.9573e81e.css",
-    "main.js": "/d.sara-jouney-portfolio/static/js/main.4900c153.js",
+    "main.css": "/d.sara-jouney-portfolio/static/css/main.79f17bd8.css",
+    "main.js": "/d.sara-jouney-portfolio/static/js/main.84f4fb7a.js",
     "static/js/787.addfdb67.chunk.js": "/d.sara-jouney-portfolio/static/js/787.addfdb67.chunk.js",
     "static/media/img1.jpg": "/d.sara-jouney-portfolio/static/media/img1.6868a073a4e1e31b0c06.jpg",
     "static/media/img4.jpg": "/d.sara-jouney-portfolio/static/media/img4.b23c272ff1f75e2964e6.jpg",
@@ -25,12 +25,12 @@
     "static/media/tooth.png": "/d.sara-jouney-portfolio/static/media/tooth.01d6b0017292dad1e819.png",
     "static/media/tooth5.png": "/d.sara-jouney-portfolio/static/media/tooth5.6751473ab5ab1d603102.png",
     "index.html": "/d.sara-jouney-portfolio/index.html",
-    "main.9573e81e.css.map": "/d.sara-jouney-portfolio/static/css/main.9573e81e.css.map",
-    "main.4900c153.js.map": "/d.sara-jouney-portfolio/static/js/main.4900c153.js.map",
+    "main.79f17bd8.css.map": "/d.sara-jouney-portfolio/static/css/main.79f17bd8.css.map",
+    "main.84f4fb7a.js.map": "/d.sara-jouney-portfolio/static/js/main.84f4fb7a.js.map",
     "787.addfdb67.chunk.js.map": "/d.sara-jouney-portfolio/static/js/787.addfdb67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9573e81e.css",
-    "static/js/main.4900c153.js"
+    "static/css/main.79f17bd8.css",
+    "static/js/main.84f4fb7a.js"
   ]
 }
