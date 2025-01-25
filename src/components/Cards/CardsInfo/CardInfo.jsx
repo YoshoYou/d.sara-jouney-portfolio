@@ -1,7 +1,7 @@
 import React from 'react'
 import './CardInfo.css'
 import { GrClose } from "react-icons/gr";
-export const CardInfo = ( { heading, icons ,handleClick, fullWork } ) =>{
+export const CardInfo = ( { heading, icons ,handleClick, fullWork,explanation } ) =>{
     return (
         <div className={`drop-menu ${fullWork ? "active":""}`}>
             <GrClose className={ `icon ` } onClick={ handleClick } />
@@ -16,6 +16,7 @@ export const CardInfo = ( { heading, icons ,handleClick, fullWork } ) =>{
                             </React.Fragment>
                         ))
                 }
+                <div className='exp'>{explanation}</div>
             </div>
         </div>
     )

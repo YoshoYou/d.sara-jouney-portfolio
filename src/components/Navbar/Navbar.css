@@ -23,23 +23,22 @@ a {
     padding-left: 2rem;
 }
 .icon_1 svg {
-    fill: #ffff;
+    fill: #c6edff;
 } 
 .nav-menu {
     display: flex;
     flex-direction: row;
     gap: 4rem;
     position: absolute;
-    bottom: -1rem;
-    left: 35%;
+    bottom: -2rem;
+    left: 30%;
 }
 .nav-menu a {
-    padding: 0.5rem;
-    font-weight: 500;
-    width: fit-content;
-    height: fit-content;
+    padding: 1rem 2rem;
     background-color: rgb(3 169 244 / 44%);
     color: #000000;
+    font-size: 25px;
+    font-weight: 600;
 }
 .navbar .btn {
     display: none;
@@ -47,11 +46,22 @@ a {
     position: absolute;
     right: 2rem;
     align-items: center;
-    fill: #166e72;
+    fill: #004e94;
     cursor: pointer;
     z-index: 1000;
 }
-@media (max-width:790px){
+@media (max-width:1210px){
+    .nav-menu {
+        left: 20%;
+        bottom: -3rem;
+    }
+    .nav-menu a {
+        font-size: 20;
+        font-weight: 600;
+        padding: 1rem;
+    }
+}
+@media (max-width:900px){
     .navbar .btn {
         display: block;
     }  

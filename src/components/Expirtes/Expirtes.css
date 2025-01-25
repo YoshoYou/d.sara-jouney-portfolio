@@ -21,21 +21,23 @@
     height:600px ;
     border-radius: 15%;
 }
-.expirtes p {
+.expirtes .about-me {
     padding-top: 2rem;
-    font-size: 25px;
-    font-weight: 100;
-    font-family: var(--font-sec);
+    font-size: 30px;
+    font-weight: 500;
     color: rgb(0, 0, 0);
 }
-.expirtes h3 ,h4{
-    font-size: 20px;
+.expirtes h3
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+.expirtes h4 {
+    font-size: 25px;
     font-weight: 500;
 }
 .resume button {
     background-color: rgba(16, 116, 163, 0.77);
-    font-size: 20px;
-    font-weight: 800;
     outline: none;
     border-radius: 10px;
     border: none;
@@ -44,8 +46,8 @@
     cursor: pointer;
 }
 .resume button a {
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 500;
     color: #000;
 }
 .resume button:hover {
@@ -73,12 +75,11 @@
         .expirtes p {
             font-size: 20px;
     }   
-
     .expirtes-info .info {
         max-width: 500px;
     }
     .name {
         padding:0;
-        font-size: 40px;
+        font-size: 70px;
     }
 }

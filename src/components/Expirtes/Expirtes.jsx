@@ -16,7 +16,7 @@ export const Expirtes = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height="30px" viewBox="0 0 20 20" width="30px" fill="#000000"><g><g><rect fill="none" height="20" width="20"/></g></g><g><polygon points="4.59,16.59 6,18 14,10 6,2 4.59,3.41 11.17,10"/></g></svg>
                     </span>
                     </div>
-                    <p>Hi my name is Sara, i'm 28 years old dentist.I have been working in Iraq for the last three years,
+                    <p className='about-me'>Hi my name is Sara, i'm 28 years old dentist.I have been working in Iraq for the last three years,
                         I have a major Expireance in fixing teeth </p>
                     <h3>You can download my cv from here,</h3>
                     <div className="resume">

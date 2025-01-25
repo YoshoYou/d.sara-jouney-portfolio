@@ -9,11 +9,12 @@ export const ContactMe = () => {
         <div className='contact-me' id="contact">
             <div className="container">
                 <h4>Contact Me</h4>
-                <p>Your can Book an Apointment or ask for consulation by contacting Dr.sara Via :</p>
+                <p>Your can Book an Apointment or ask for consulation by contacting Dr.Sara Via :</p>
                 <div className="contact">
                     <div className='icon-card'>
                         <FaFacebookSquare className='icon-media' />
-                        <p>www.sarahJpuney.cpm</p>
+                        <a href="https://www.facebook.com/share/1EM65Zsq44/?mibextid=qi2Omg">sara Jouney</a>
+                        {/* <p>www.sarahJpuney.cpm</p> */}
                     </div>
                     <div className='icon-card'>
                         <FaPhoneSquareAlt className='icon-media' />
@@ -21,7 +22,7 @@ export const ContactMe = () => {
                     </div>
                     <div className='icon-card'>
                         <FaInstagram className='icon-media' />
-                        <p>sarajouney/instagram</p>
+                        <a href="https://www.instagram.com/sarajouney?igsh=YmN2cWx6d2x0dGhv">sarajouney/instagram</a>
                     </div>
                 </div>
             </div>

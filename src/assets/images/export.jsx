@@ -19,4 +19,8 @@ import tooth from '../images/tooth.png';
 import tooth3 from '../images/tooth3.jpg';
 import tooth5 from '../images/tooth5.png'
 import teeth5 from '../images/teeth5.jpg'
-export { sara,img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,tooth,tooth3,tooth5 ,teeth5};
+import img17 from '../images/img17.jpg'
+import img18 from '../images/img18.jpg'
+import img19 from '../images/img19.jpg'
+import img20 from '../images/img20.jpg'
+export { sara,img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20,tooth,tooth3,tooth5 ,teeth5};

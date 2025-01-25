@@ -5,17 +5,25 @@
 .container {
     margin: 7rem 4rem;
 }
+.container p {
+    font-size: 25px;
+    font-weight: 600;
+}
 .contact-me h4 {
     font-size: 50px;
     font-weight: 800;
     font-family: var(--font-base);
     margin: 1rem 0 2rem 0;
 }
-.contact-me p {
-    font-size: 20px;
+.contact-me a {
+    font-size: 26px;
     width: 75%;
     font-weight: 600;
     padding: 1rem 0.5rem;
+    color: #000;
+}
+.contact-me a:hover {
+    color: #3b3131;
 }
 .contact {
     display: flex;
@@ -35,8 +43,8 @@
     .container {
         margin: 7rem 2rem;
     }
-    .contact-me p  {
-        font-size: 20px;
+    .contact-me a  {
+        font-size: 24px;
     }
     .contact .icon-media {
     font-size: 30px;

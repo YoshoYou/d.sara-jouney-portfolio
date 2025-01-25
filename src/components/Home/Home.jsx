@@ -10,7 +10,7 @@ export const Home = () => {
             <div className="landing-content">
                 <h1>Creating Beautiful Smiles</h1>
                 <p>We Make Smiles Healthy and Strong! For Cosmetic, Family & Implant Dentistry</p>
-                <span class="material-symbols-outlined">                </span>
+                <span className="material-symbols-outlined">                </span>
             </div>
         </div>
     )

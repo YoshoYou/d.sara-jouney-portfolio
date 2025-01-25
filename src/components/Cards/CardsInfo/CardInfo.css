@@ -15,11 +15,20 @@
 .holder {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding: 2rem;
+}
+.holder .exp {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px;
+    columns: #000;
 }
 .drop-menu  .holder-info {
     position: relative;
@@ -46,19 +55,12 @@
         margin: 3rem;
     }
     .drop-menu .holder-info img {
-        width: 350px;
+        width: 300px;
     }
 }
-@media (max-width:920px) {
+@media (max-width:1070px) {
     .holder {
-        gap: 0;
-    }
-    .drop-menu .holder-info {
-        width: 300px;
-        height: 200px;
-    }
-    .drop-menu .holder-info img {
-        width: 300px;
-        height: 200px;
+        flex-direction: column;
+        padding-top: 5rem;
     }
 }

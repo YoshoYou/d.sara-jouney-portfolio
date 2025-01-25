@@ -37,14 +37,14 @@ export const Cards = () =>
                 }
                 <div className="add-new">
                 <CardInfo  
-                        heading={ selectedSkill.title }
-                        
-                    icons={selectedSkill.icons}
-                    key={ selectedSkill.key }
-                    description={ selectedSkill.description }
+                        heading={ selectedSkill.title }     
+                        icons={selectedSkill.icons}
+                        key={ selectedSkill.key }
+                        description={ selectedSkill.description }
+                        explanation={selectedSkill.exp}
                         fullWork={ fullWork }
                         handleClick={handleClick}
-                />
+                    />
                 </div>
             </div>
             </>
