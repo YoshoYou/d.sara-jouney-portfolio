@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/d.sara-jouney-portfolio/static/css/main.79f17bd8.css",
-    "main.js": "/d.sara-jouney-portfolio/static/js/main.84f4fb7a.js",
+    "main.css": "/d.sara-jouney-portfolio/static/css/main.7a1373bb.css",
+    "main.js": "/d.sara-jouney-portfolio/static/js/main.b6390bc5.js",
     "static/js/787.addfdb67.chunk.js": "/d.sara-jouney-portfolio/static/js/787.addfdb67.chunk.js",
     "static/media/img1.jpg": "/d.sara-jouney-portfolio/static/media/img1.6868a073a4e1e31b0c06.jpg",
     "static/media/img4.jpg": "/d.sara-jouney-portfolio/static/media/img4.b23c272ff1f75e2964e6.jpg",
     "static/media/img3.jpg": "/d.sara-jouney-portfolio/static/media/img3.36980d8abc83ed7e7840.jpg",
     "static/media/img7.jpg": "/d.sara-jouney-portfolio/static/media/img7.c3696ed07f21bc1f2420.jpg",
+    "static/media/img17.jpg": "/d.sara-jouney-portfolio/static/media/img17.a66b8df11a29c8371da6.jpg",
     "static/media/img11.jpg": "/d.sara-jouney-portfolio/static/media/img11.e4fb15f071dc47388ded.jpg",
     "static/media/img2.jpg": "/d.sara-jouney-portfolio/static/media/img2.6d3037502b898ea35e43.jpg",
+    "static/media/img19.jpg": "/d.sara-jouney-portfolio/static/media/img19.8c7c4b2933bd4224da00.jpg",
     "static/media/img6.jpg": "/d.sara-jouney-portfolio/static/media/img6.67aa6309700dad43dd66.jpg",
+    "static/media/img18.jpg": "/d.sara-jouney-portfolio/static/media/img18.52060ff75ab0da5e9e76.jpg",
     "static/media/sara.jpg": "/d.sara-jouney-portfolio/static/media/sara.9e4dcb53f0f78e497587.jpg",
     "static/media/img16.jpg": "/d.sara-jouney-portfolio/static/media/img16.313d85e462dec6a1b125.jpg",
     "static/media/img8.jpg": "/d.sara-jouney-portfolio/static/media/img8.2791905932543b8b6729.jpg",
@@ -19,18 +22,19 @@
     "static/media/img13.jpg": "/d.sara-jouney-portfolio/static/media/img13.cab02d3aea7268ea28f9.jpg",
     "static/media/img10.jpg": "/d.sara-jouney-portfolio/static/media/img10.13ff8bbb463b51e025b8.jpg",
     "static/media/img15.jpg": "/d.sara-jouney-portfolio/static/media/img15.3ed817d1fbca1486a0ab.jpg",
+    "static/media/img20.jpg": "/d.sara-jouney-portfolio/static/media/img20.3c024c06c5bcce1106f2.jpg",
     "static/media/img14.jpg": "/d.sara-jouney-portfolio/static/media/img14.cac31bfd3644979b5b37.jpg",
     "static/media/teeth5.jpg": "/d.sara-jouney-portfolio/static/media/teeth5.c35ae81e82c180a24e14.jpg",
     "static/media/tooth3.jpg": "/d.sara-jouney-portfolio/static/media/tooth3.879a39c7154878885f6f.jpg",
     "static/media/tooth.png": "/d.sara-jouney-portfolio/static/media/tooth.01d6b0017292dad1e819.png",
     "static/media/tooth5.png": "/d.sara-jouney-portfolio/static/media/tooth5.6751473ab5ab1d603102.png",
     "index.html": "/d.sara-jouney-portfolio/index.html",
-    "main.79f17bd8.css.map": "/d.sara-jouney-portfolio/static/css/main.79f17bd8.css.map",
-    "main.84f4fb7a.js.map": "/d.sara-jouney-portfolio/static/js/main.84f4fb7a.js.map",
+    "main.7a1373bb.css.map": "/d.sara-jouney-portfolio/static/css/main.7a1373bb.css.map",
+    "main.b6390bc5.js.map": "/d.sara-jouney-portfolio/static/js/main.b6390bc5.js.map",
     "787.addfdb67.chunk.js.map": "/d.sara-jouney-portfolio/static/js/787.addfdb67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79f17bd8.css",
-    "static/js/main.84f4fb7a.js"
+    "static/css/main.7a1373bb.css",
+    "static/js/main.b6390bc5.js"
   ]
 }
