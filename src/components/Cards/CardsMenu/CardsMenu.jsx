@@ -1,6 +1,6 @@
 import React from 'react'
 import './CardsMenu.css'
-export const CardsMenu = ( {title,icon1,icon2,onClick,description} ) =>
+export const CardsMenu = ( {icon1,icon2,onClick,description} ) =>
 {
     return (
         <>

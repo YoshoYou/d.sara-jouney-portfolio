@@ -15,12 +15,21 @@ import img13 from '../images/img13.jpg';
 import img14 from '../images/img14.jpg';
 import img15 from '../images/img15.jpg';
 import img16 from '../images/img16.jpg';
-import tooth from '../images/tooth.png';
-import tooth3 from '../images/tooth3.jpg';
-import tooth5 from '../images/tooth5.png'
 import teeth5 from '../images/teeth5.jpg'
 import img17 from '../images/img17.jpg'
 import img18 from '../images/img18.jpg'
 import img19 from '../images/img19.jpg'
 import img20 from '../images/img20.jpg'
-export { sara,img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20,tooth,tooth3,tooth5 ,teeth5};
+import img21 from '../images/img21.jpg'
+import img22 from '../images/img22.jpg'
+import img23 from '../images/img23.jpg'
+import img24 from '../images/img24.jpg'
+import img25 from '../images/img25.jpg'
+import img26 from '../images/img26.jpg'
+import img27 from '../images/img27.jpg'
+import img28 from '../images/img28.jpg'
+import img29 from '../images/img29.jpg'
+import img30 from '../images/img30 .jpg'
+import video1 from '../images/video1.mp4'
+import video2 from '../images/video2.mp4'
+export { sara,img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20,img21,img22,img23,img24,img25,img26,img27,img28,img29,img30,teeth5,video1,video2};

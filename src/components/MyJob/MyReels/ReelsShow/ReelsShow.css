@@ -1,0 +1,32 @@
+.reels-show-container  {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    background: var(--main-drop-menu);
+    z-index: 2000;
+}
+.reels-show-container .active {
+    display: block;
+}
+.reels-show-container .passive {
+    display: none;
+}
+.reels-show-container video {
+    width: 600px;
+    height: 600px;
+}
+.v-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+@media (max-width:500px){
+    .reels-show-container video {
+        width: 400px;
+        height: 400px;
+}
+}

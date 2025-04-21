@@ -1,5 +1,5 @@
 .expirtes {
-    background: linear-gradient(90deg, rgba(165, 243, 243, 0.53) 0%, rgb(76 244 244 / 0%) 50%, rgba(165, 243, 243, 0.53) 100%);
+    background: var(--main-background);
 }
 .expirtes-info {
     padding: 4rem 3rem;

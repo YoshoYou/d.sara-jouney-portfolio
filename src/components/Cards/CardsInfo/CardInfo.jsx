@@ -1,10 +1,10 @@
 import React from 'react'
 import './CardInfo.css'
-import { GrClose } from "react-icons/gr";
+import { ReusableButton } from '../../MyJob/ReusableButton/ReusableButton';
 export const CardInfo = ( { heading, icons ,handleClick, fullWork,explanation } ) =>{
     return (
         <div className={`drop-menu ${fullWork ? "active":""}`}>
-            <GrClose className={ `icon ` } onClick={ handleClick } />
+            <ReusableButton onClick={handleClick} />
             <div className="holder">
                 {
                         icons.map( ( icon, index ) => (

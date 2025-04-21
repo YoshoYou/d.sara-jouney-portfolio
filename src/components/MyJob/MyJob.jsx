@@ -1,6 +1,7 @@
 import React from 'react'
 import './MyJob.css'
 import { Cards } from '../Cards/Cards';
+import { JOBS } from '../../Utils/data';
 export const MyJob = () => {
     return (
         <div className='my-job' id='my_job'>
@@ -9,7 +10,7 @@ export const MyJob = () => {
             <p>CLICK ON EACH CARD TO SEE THE FULL WORK WITH DESCRIPTION</p>
             </div>
             <div className="my-job-cards">
-                <Cards/>
+                <Cards ele={JOBS} keyword={true}/>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@
     overflow-y: scroll;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgb(15, 123, 109) 0%, rgba(12, 120, 120, 0.93) 50%, rgba(119, 182, 182, 0.719) 100%); 
+    background: var(--main-drop-menu);
     z-index: 2000;
     display: none;
 }
@@ -17,14 +17,9 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 .holder .exp {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
     font-size: 30px;
     font-weight: 500;
     padding: 15px;
@@ -32,6 +27,7 @@
 }
 .drop-menu  .holder-info {
     position: relative;
+    flex-direction: row;
     margin: 6rem 1rem;
     border: 3px solid rgb(119, 245, 245);
     width: 400px;
@@ -39,7 +35,7 @@
 }
 .drop-menu  .holder-info span {
     position: absolute;
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: 500;
     font-family: var(--font-sec);
     top: -4rem;

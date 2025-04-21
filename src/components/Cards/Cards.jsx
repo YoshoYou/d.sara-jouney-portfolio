@@ -3,7 +3,7 @@ import './Cards.css'
 import { JOBS } from '../../Utils/data';
 import {CardsMenu} from '../Cards/CardsMenu/CardsMenu'
 import { CardInfo } from './CardsInfo/CardInfo';
-export const Cards = () =>
+export const Cards = ({ele}) =>
 {
     const [ selectedSkill, setSelectedSkill ] = useState( JOBS[ 0 ] );
     const [ fullWork, setFullWork ] = useState( false );
@@ -19,12 +19,14 @@ export const Cards = () =>
         <>
             <div className={`card-container `} >
                 {
-                    JOBS.map( ( item ) => (
+                    ele.map( ( item ) => (
+                    
                         <CardsMenu
                             key={item.key}
                             description={ item.description }
                             icon1={item.icons[0]}
-                            icon2={item.icons[1]}
+                            icon2={ item.icons[ 1 ] }
+                            video={item.video}
                             isActive={ selectedSkill.title === item.title }
                             onClick={ () =>
                             {
@@ -33,12 +35,14 @@ export const Cards = () =>
                             } }
                             
                         />
+                        
                     ))
                 }
                 <div className="add-new">
                 <CardInfo  
                         heading={ selectedSkill.title }     
                         icons={selectedSkill.icons}
+                        video={selectedSkill.video}
                         key={ selectedSkill.key }
                         description={ selectedSkill.description }
                         explanation={selectedSkill.exp}

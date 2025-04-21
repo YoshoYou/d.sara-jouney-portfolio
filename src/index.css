@@ -6,17 +6,38 @@
   --font-alt:'Great Vibes', cursive;
   --font-base:'Caveat', cursive;
   --font-sec:'Permanent Marker', cursive;
+  --main-color: #004e94;
+  --main-background:linear-gradient(90deg, rgba(165, 243, 243, 0.53) 0%, rgb(76 244 244 / 0%) 50%, rgba(165, 243, 243, 0.53) 100%);
+  --main-drop-menu:linear-gradient(90deg, rgb(15, 123, 109) 0%, rgba(12, 120, 120, 0.93) 50%, rgba(119, 182, 182, 0.719) 100%);
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}
+.card-content {
+    border: 6px solid #77f5f5;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+.card-content:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 12px 0 rgba(89, 231, 226, 0.8), 0 8px 22px 0 rgba(64, 227, 227, 0.19);
+    transform: translateY(-30px);
+}
+.card-container {   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-self: center;
+    gap: 6rem;
 }
