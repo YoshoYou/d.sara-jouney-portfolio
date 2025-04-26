@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/d.sara-jouney-portfolio/static/css/main.303e4fdd.css",
-    "main.js": "/d.sara-jouney-portfolio/static/js/main.0883f17d.js",
+    "main.css": "/d.sara-jouney-portfolio/static/css/main.816e1bf0.css",
+    "main.js": "/d.sara-jouney-portfolio/static/js/main.a4800eae.js",
     "static/js/787.addfdb67.chunk.js": "/d.sara-jouney-portfolio/static/js/787.addfdb67.chunk.js",
     "static/media/video1.mp4": "/d.sara-jouney-portfolio/static/media/video1.90f53a79811ad95b2daa.mp4",
     "static/media/video2.mp4": "/d.sara-jouney-portfolio/static/media/video2.d128cb7284d20287061e.mp4",
@@ -38,12 +38,12 @@
     "static/media/img14.jpg": "/d.sara-jouney-portfolio/static/media/img14.d0e2412c55d6efd3b3fd.jpg",
     "static/media/teeth5.jpg": "/d.sara-jouney-portfolio/static/media/teeth5.7bb98e3e2e0c333f4b8b.jpg",
     "index.html": "/d.sara-jouney-portfolio/index.html",
-    "main.303e4fdd.css.map": "/d.sara-jouney-portfolio/static/css/main.303e4fdd.css.map",
-    "main.0883f17d.js.map": "/d.sara-jouney-portfolio/static/js/main.0883f17d.js.map",
+    "main.816e1bf0.css.map": "/d.sara-jouney-portfolio/static/css/main.816e1bf0.css.map",
+    "main.a4800eae.js.map": "/d.sara-jouney-portfolio/static/js/main.a4800eae.js.map",
     "787.addfdb67.chunk.js.map": "/d.sara-jouney-portfolio/static/js/787.addfdb67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.303e4fdd.css",
-    "static/js/main.0883f17d.js"
+    "static/css/main.816e1bf0.css",
+    "static/js/main.a4800eae.js"
   ]
 }
