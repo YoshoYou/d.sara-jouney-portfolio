@@ -20,7 +20,7 @@ export const MyReels = () =>
         <div className="reels-container ">
             <div className="reels-heading">
             <h4>My Reels</h4>
-            <p>CLICK ON EACH reels TO SEE THE FULL WORK WITH DESCRIPTION</p>
+            <p>Click on each reels to see the full video with the whole process</p>
             </div>
             <div className="card-container">
                 {

@@ -45,13 +45,11 @@ code {
 @media (max-width:1450px) {
     .card-container {
         grid-template-columns: repeat(2,1fr);
-        justify-self: center;
     }
 }
 @media (max-width:1060px) {
     .card-container {
         grid-template-columns: repeat(1,1fr);
-        justify-self: center;
     }
     
 }

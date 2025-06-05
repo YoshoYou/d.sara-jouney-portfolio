@@ -9,7 +9,7 @@ export const ContactMe = () => {
         <div className='contact-me' id="contact">
             <div className="container">
                 <h4>Contact Me</h4>
-                <p>Your can Book an Apointment or ask for consulation by contacting Dr.Sara Via :</p>
+                <p>You can Book an Apointment or ask for consulation by contacting Dr.Sara Via :</p>
                 <div className="contact">
                     <div className='icon-card'>
                         <FaFacebookSquare className='icon-media' />
